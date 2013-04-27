@@ -14,14 +14,14 @@ h1 {
 }
 
 .hero {
- @include panel;
- }
+	 @include panel;
+	 }
  
 .container {
 	@include grid-row;
 	}
 	
 img {
-@include grid-column(6);
-}
+	@include grid-column(6);
+	}
 	
