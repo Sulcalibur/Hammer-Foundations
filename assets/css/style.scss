@@ -21,7 +21,16 @@ h1 {
 	@include grid-row;
 	}
 	
-img {
-	@include grid-column(6);
-	}
-	
+nav > ul {
+  display: block;
+  margin-top: 1em;
+  
+    li {
+      display: inline;
+      padding: 1em 2em;
+      
+      &:first-child {
+        padding-left: 0;
+      }
+    }
+  }
